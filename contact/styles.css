@@ -1,0 +1,137 @@
+body {
+   font-family: Arial, sans-serif;
+   /* background-color: #f4f4f9; */
+   background-color: #fff;
+   color: #000;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   min-height: 100vh;
+   /* padding: 20px; */
+}
+.navbar{
+   width: 100%;
+   margin: 0px;
+   margin-top: 0px;
+   padding-top: 0px;
+}
+#con-us{
+   display: none;
+}
+.loader{
+   background-color: #fff;
+   /* overflow: hidden; */
+   position: fixed;
+   width: 100%;
+   /* bottom: 50%; */
+   z-index: 9999;
+   /* display: none; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   /* background: linear-gradient(13deg, rgba(10, 0, 0, 0.274), rgba(19, 11, 11, 0.308)); */
+   backdrop-filter: blur(30px);
+}
+#loader img{
+   width: 300px;
+}
+#newdiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.navbar-brand{
+   font-family: "Playwrite IN", serif;
+   /* font-family: "Bebas Neue", serif; */
+   font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid a{
+   /* color: #fff; */
+   margin-left: 5px;
+}
+.img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.collapse button{
+   border: 1px solid #fff;
+}
+.contact-container {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 500px;
+   text-align: center;
+}
+
+.contact-container h1 {
+   font-weight: bold;
+   font-size: 35px;
+   margin-bottom: 10px;
+}
+
+.contact-container p {
+   font-size: 18px;
+   margin-bottom: 20px;
+   color: orangered;
+   /* color: #555; */
+}
+
+/* Form Styling */
+.form-group {
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+.form-group label {
+   font-size: 18px;
+   font-weight: bold;
+   display: block;
+   margin-bottom: 5px;
+}
+
+.form-group input {
+   width: 100%;
+   height: 50px;
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   outline: none;
+   transition: border-color 0.3s;
+}
+.form-group textarea{
+   width: 100%;
+   /* height: 50px; */
+   padding: 10px;
+   font-size: 14px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   outline: none;
+   transition: border-color 0.3s;
+
+}
+.form-group input:focus,
+.form-group textarea:focus {
+   border-color: #3498db;
+}
+
+.btn {
+   /* background-color: #0d6; */
+   color: #fff;
+   border: none;
+   padding: 10px 15px;
+   font-size: 16px;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
