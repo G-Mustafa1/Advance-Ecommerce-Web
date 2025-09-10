@@ -5,6 +5,7 @@ function preLoader(){
    setTimeout(() => {
       loader.style.display = 'none';
       cotactUs.style.display = 'block';
-   },1000)
+   },800)
 }
+
 window.addEventListener('load', preLoader)
