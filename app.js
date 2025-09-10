@@ -172,7 +172,7 @@ function hyLoad(){
         loader.style.display = 'none';
         content.style.display = 'block';
         content.style.overflow = 'hidden';
-    },2000)
+    },800)
 }
 // hyLoad()
 
