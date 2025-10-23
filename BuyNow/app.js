@@ -32,6 +32,7 @@ function preLoader(){
    setTimeout(() => {
       loader.style.display = 'none';
       buyNow.style.display = 'block'
-   },1000)
+   },500)
 }
+
 window.addEventListener('load', preLoader)
