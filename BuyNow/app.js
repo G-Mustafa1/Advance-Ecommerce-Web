@@ -9,6 +9,7 @@ const btn = document.getElementById('btn');
 // console.log(input)
 btn.addEventListener('click', () => {
    if(input.value && email.value && city.value && address.value && payment.value){
+      localStorage.removeItem('cart');  
       Swal.fire({
          title: "",
          text: 'Your order succesfully',
@@ -36,3 +37,4 @@ function preLoader(){
 }
 
 window.addEventListener('load', preLoader)
+
