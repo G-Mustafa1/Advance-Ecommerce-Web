@@ -12,11 +12,15 @@ btn.addEventListener('click', () => {
       localStorage.removeItem('cart');  
       Swal.fire({
          title: "",
-         text: 'Your order succesfully',
-         icon: "success"
-       });
-      // alert('Your order succesfully')
-      window.location.href = '../index.html';
+         text: 'Your order successfully',
+         icon: "success",
+         timer: 1000,
+         showConfirmButton: false
+      });
+
+      setTimeout(() => {
+         window.location.href = '../index.html';
+      }, 1000);
    }
    else{
       Swal.fire({
@@ -37,4 +41,5 @@ function preLoader(){
 }
 
 window.addEventListener('load', preLoader)
+
 
